@@ -10,7 +10,7 @@ val html =
 		<title>テストページ</title>
 	</head>
 	<body>
-		<form action="scalaview.cgi">
+		<form method="GET" action="scalaview.cgi">
 			<label>入力フォーム</label><br/>
 			<input type="text" name="input_text1"/><br/>
 			<input type="text" name="input_text2"/><br/>
